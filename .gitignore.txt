@@ -1,0 +1,14 @@
+# Ignorar entornos virtuales
+.venv/
+env/
+
+# Ignorar ejecutables y archivos binarios
+*.exe
+*.dll
+
+# Ignorar archivos de configuración del sistema operativo
+Thumbs.db
+.DS_Store
+
+# Ignorar cualquier otra carpeta innecesaria
+chrome-win64/
