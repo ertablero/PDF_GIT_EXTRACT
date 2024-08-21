@@ -5,6 +5,7 @@ env/
 # Ignorar ejecutables y archivos binarios
 *.exe
 *.dll
+*.pdf
 
 # Ignorar archivos de configuración del sistema operativo
 Thumbs.db
