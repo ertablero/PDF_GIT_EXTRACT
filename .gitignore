@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ignorar entornos virtuales
 .venv/
 env/
@@ -24,6 +25,8 @@ chrome-win64/
 *.swp
 
 =======
+=======
+>>>>>>> dc1bd62b77ade961f37c4735ba9b90c361d8caa7
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -186,4 +189,7 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+<<<<<<< HEAD
+>>>>>>> dc1bd62b77ade961f37c4735ba9b90c361d8caa7
+=======
 >>>>>>> dc1bd62b77ade961f37c4735ba9b90c361d8caa7
