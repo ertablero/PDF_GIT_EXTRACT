@@ -1,0 +1,24 @@
+# Ignorar entornos virtuales
+.venv/
+env/
+
+# Ignorar ejecutables y archivos binarios
+*.exe
+*.dll
+*.pdf
+
+# Ignorar archivos de configuración del sistema operativo
+Thumbs.db
+.DS_Store
+
+# Ignorar carpetas innecesarias
+chrome-win64/
+
+# Ignorar configuraciones de IDE específicas del usuario
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
