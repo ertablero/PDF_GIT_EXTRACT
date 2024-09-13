@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
-import fitz #PyMuPDF 
+import pymupdf #PyMuPDF 
 import os
 from openpyxl import Workbook
 import re
@@ -71,7 +71,7 @@ def main():
     for filename in os.listdir(pdf_directory):
         if filename.lower().endswith('.pdf'):
             pdf_path = os.path.join(pdf_directory, filename)
-            doc = fitz.open(pdf_path)
+            doc = pymupdf.open(pdf_path)
             
             found_text = 'No encontrado'
             cuit_value = ''
