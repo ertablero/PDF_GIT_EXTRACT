@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
-import fitz  # PyMuPDF 
+import fitz #PyMuPDF 
 import os
 from openpyxl import Workbook
 import re
